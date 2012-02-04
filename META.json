@@ -1,0 +1,64 @@
+{
+   "abstract" : "more POSIX correct threads",
+   "author" : [
+      "Leon Timmermans <leont@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "threads-posix",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "XSLoader" : 0,
+            "parent" : 0,
+            "perl" : "5.006",
+            "strict" : 0,
+            "threads" : 0,
+            "warnings" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Config" : 0,
+            "File::Find" : 0,
+            "File::Temp" : 0,
+            "POSIX" : 0,
+            "Test::More" : 0,
+            "Thread::Queue" : 0,
+            "Thread::Semaphore" : 0,
+            "Thread::SigMask" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-threads-posix at rt.cpan.org",
+         "web" : "http://rt.cpan.org/Public/Dist/Display.html?Name=threads-posix"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/Leont/threads-posix.git",
+         "web" : "http://github.com/Leont/threads-posix"
+      }
+   },
+   "version" : "0.001"
+}
+

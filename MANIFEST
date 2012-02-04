@@ -1,0 +1,17 @@
+Build.PL
+Changes
+INSTALL
+LICENSE
+MANIFEST
+META.json
+META.yml
+README
+dist.ini
+lib/threads/posix.pm
+lib/threads/posix.xs
+t/00-compile.t
+t/10-basics.t
+t/20-target.t
+t/release-kwalitee.t
+t/release-pod-coverage.t
+t/release-pod-syntax.t
