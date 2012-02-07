@@ -3,7 +3,7 @@
    "author" : [
       "Leon Timmermans <leont@cpan.org>"
    ],
-   "dynamic_config" : 0,
+   "dynamic_config" : "1",
    "generated_by" : "Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640",
    "license" : [
       "perl_5"
@@ -21,7 +21,8 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.3601"
+            "Module::Build" : "0.3601",
+            "Perl::OSType" : "1"
          }
       },
       "runtime" : {
@@ -43,7 +44,8 @@
             "Test::More" : 0,
             "Thread::Queue" : 0,
             "Thread::Semaphore" : 0,
-            "Thread::SigMask" : 0
+            "Thread::SigMask" : 0,
+            "Time::HiRes" : 0
          }
       }
    },
@@ -59,6 +61,6 @@
          "web" : "http://github.com/Leont/threads-posix"
       }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }
 

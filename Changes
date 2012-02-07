@@ -1,4 +1,8 @@
 Revision history for threads-posix
 
+0.002     2012-02-07 19:32:15 Europe/Amsterdam
+          Check for threads and Unix before continuing to configure
+          Avoid hanging in tests
+
 0.001     2012-02-04 17:39:34 Europe/Amsterdam
-    -
+          First release

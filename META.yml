@@ -12,9 +12,11 @@ build_requires:
   Thread::Queue: 0
   Thread::Semaphore: 0
   Thread::SigMask: 0
+  Time::HiRes: 0
 configure_requires:
   Module::Build: 0.3601
-dynamic_config: 0
+  Perl::OSType: 1
+dynamic_config: 1
 generated_by: 'Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640'
 license: perl
 meta-spec:
@@ -31,4 +33,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=threads-posix
   repository: git://github.com/Leont/threads-posix.git
-version: 0.001
+version: 0.002

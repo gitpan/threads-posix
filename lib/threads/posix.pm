@@ -1,6 +1,6 @@
 package threads::posix;
 {
-  $threads::posix::VERSION = '0.001';
+  $threads::posix::VERSION = '0.002';
 }
 use strict;
 use warnings;
@@ -25,7 +25,7 @@ threads::posix - more POSIX correct threads
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
